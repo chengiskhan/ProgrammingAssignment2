@@ -6,7 +6,7 @@ makeCacheMatrix <- function(x=matrix()) {
         i <- NULL
         set <- function(y) {
                 x <<- y
-                i <<- i
+                i <<- NULL
     }
         get <- function() {
                 x
